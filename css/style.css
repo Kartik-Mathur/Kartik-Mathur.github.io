@@ -519,12 +519,14 @@ section,
   z-index: -1;
 }
 
+
 /* Gap */
 @media (min-width: 992px) {
   .gap-30 {
     height: 30px;
     clear: both;
   }
+
 }
 
 .mb-0 {
@@ -558,7 +560,7 @@ section,
 
 .banner-area {
   position: relative;
-  padding: 132px 0;
+  padding: 100px 0 234px 0;
   background-size: cover;
   background-position: 50% 50%;
   overflow: hidden;
@@ -594,7 +596,7 @@ section,
 }
 .banner-area .banner-img {
   position: absolute;
-  bottom: -58px;
+  bottom: -23px;
   left: calc(50% - 415px);
 }
 
@@ -1255,6 +1257,7 @@ section,
   height: 600px;
   display: table;
   width: 100%;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 100%;
 }
@@ -3157,6 +3160,7 @@ section,
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
+
 .service-wrapper .course-img .service-tag:before {
   content: "";
   position: absolute;
@@ -3195,7 +3199,7 @@ section,
   margin-top: 30px;
 }
 .service-wrapper .course-details .course-mentor {
-  color: #b3b2b6;
+  color: #727580;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   margin-bottom: 4px;
@@ -3408,7 +3412,8 @@ section,
 
 /* Service */
 .carousel-bg {
-  background: url(../images/service/service-bg.png);
+  /* background: url(../images/service/service-bg.png); */
+  background-color: #bebebe;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -3688,7 +3693,14 @@ section,
   .signup-with {
     margin-top: 40px;
   }
+  #tl-topbar{
+    visibility: hidden;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    height: 0px;
+  }
 }
+
 @media (max-width: 767px) {
   .signup-with {
     margin-top: 40px;

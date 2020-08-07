@@ -89,7 +89,8 @@ jQuery(function ($) {
 
       $('.link1').on('click',()=>{
         alert('This will be available soon!!')
-       });
+      });
+      
       $('input').each(function (e) {
          $(this).attr('autocomplete', 'off');
          $(this).attr('autocorrect', 'off')

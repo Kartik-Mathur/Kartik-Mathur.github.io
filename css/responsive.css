@@ -1,8 +1,18 @@
 /* Responsive styles
 ================================================== */
 /* Large Devices, Wide Screens */
+@media (min-width:1200px){
+  #show-signin{
+    display: none;
+  }
+}
 /* Medium Devices, Desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* Signin */
+  #show-signin{
+    display: none;
+  }
+
   .top-info .info-wrapper {
     padding-left: 36px;
     margin-right: 0;
