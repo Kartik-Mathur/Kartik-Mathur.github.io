@@ -1,0 +1,87 @@
+@import '../varriables';
+
+.tl-feature {
+   padding-top: 88px;
+}
+
+.feature-box-wrapper {
+   border: 1px solid $colors7;
+   border-bottom: 5px solid $colors10;
+   position: relative;
+
+   .feature-img {
+      position: relative;
+   }
+
+   .feature-content {
+      padding: 35px 30px 30px;
+
+      .feature-title {
+         font-weight: 600;
+         margin-bottom: 18px;
+      }
+
+      p {
+         margin-bottom: 12px;
+      }
+   }
+}
+
+.feature-schedule-box {
+   text-align: center;
+   border: 1px solid $colors7;
+
+   .schedule-title {
+      line-height: normal;
+      margin-bottom: 0;
+      border-bottom: 1px dashed $colors7;
+      padding: 22px 0;
+   }
+
+   .schedule-shift {
+      padding: 26px 0;
+      border-bottom: 1px solid $colors7;
+      color: $colors3;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: $pop;
+   }
+
+   .schedule-time {
+      border-bottom: 1px solid $colors7;
+      padding: 5px 0;
+      font-size: 16px;
+      font-family: $pop;
+      background: $colors7;
+
+      span {
+         display: block;
+         color: $colors3;
+         font-size: 14px;
+      }
+
+      &.color-green {
+         color: $colorGreen;
+      }
+
+      &.color-orange {
+         color: $colorOrange;
+      }
+   }
+
+   .schedule-link {
+      padding: 23px 0;
+
+      a {
+         color: $colors3;
+         text-transform: uppercase;
+         letter-spacing: 2px;
+         transition: all 0.3s;
+         font-weight: 700;
+
+         &:hover {
+            color: $colors10;
+         }
+      }
+   }
+}

@@ -1,0 +1,98 @@
+@import '../varriables';
+
+.tl-contact-us {
+   .row {
+      background: #f9f9f9;
+      border-radius: 25px;
+      padding: 80px 0;
+   }
+}
+
+.contact-us-wrapper {
+   .contact-title {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 28px;
+   }
+
+   ul {
+      li {
+         font-family: $pop;
+         color: #6c6b74;
+         font-weight: 500;
+
+         &:not(:last-child) {
+            margin-bottom: 5px;
+         }
+      }
+   }
+
+   p {
+      font-family: $pop;
+      color: #6c6b74;
+      font-weight: 500;
+   }
+
+   .contact-link {
+      margin-bottom: 0;
+      color: #f05a21;
+   }
+}
+
+
+/* Contact form */
+.tl-conact-form {
+   margin-top: 37px;
+}
+
+.contact-form {
+   .form-group {
+      .form-control {
+         border-color: #dbdadd;
+         padding: 16px 40px;
+         border-radius: 50px;
+
+         &::placeholder {
+            color: #b6b5ba;
+            font-size: 14px;
+            font-weight: 600;
+         }
+      }
+
+      textarea {
+         &.form-control {
+            border-radius: 25px;
+            margin-top: 32px;
+            margin-bottom: 48px;
+         }
+      }
+   }
+}
+
+/* Map */
+.mapouter {
+   text-align: right;
+   height: 450px;
+   width: 100%;
+}
+
+.gmap_canvas {
+   overflow: hidden;
+   background: none !important;
+   height: 450px;
+   width: 100%;
+   iframe{
+      width: 100%;
+      height: 450px;
+      border: 0;
+   }
+}
+
+.tl-map {
+   filter: grayscale(1);
+   transition: all 0.3s;
+
+   &:hover {
+      filter: grayscale(0);
+   }
+}

@@ -1,0 +1,65 @@
+@import '../varriables';
+
+.tl-service {
+   padding-top: 90px;
+}
+
+.single-service-box {
+   background: $colorWhite;
+   border-radius: 50px;
+   padding: 40px 35px 40px 50px;
+   transition: all 0.3s;
+
+   &:hover {
+      box-shadow: 0px 10px 20px 0px $borderColor9;
+   }
+}
+
+.service-header {
+   position: relative;
+   display: flex;
+   flex: 0 0 100%;
+   flex-wrap: wrap;
+   align-items: center;
+
+   i {
+      font-size: 50px;
+   }
+
+   .service-title {
+      font-size: 20px;
+      font-family: $op;
+      font-weight: 600;
+      padding-left: 20px;
+      margin-bottom: 0;
+   }
+
+   &.color-green {
+
+      i,
+      .service-title {
+         color: $colorGreen;
+      }
+   }
+
+   &.color-yellow {
+
+      i,
+      .service-title {
+         color: $colors10;
+      }
+   }
+
+   &.color-orange {
+
+      i,
+      .service-title {
+         color: $colorOrange;
+      }
+   }
+}
+
+.service-desc {
+   margin-bottom: 0;
+   padding-top: 20px;
+}

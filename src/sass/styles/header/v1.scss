@@ -1,0 +1,61 @@
+@import '../varriables';
+
+.tl-header {
+   .tl-logo-area {
+      padding: 28px 0;
+   }
+
+   &.header-solid {
+      .tl-logo-area {
+         padding: 0;
+      }
+
+      &.sticky-nav {
+         .tl-logo-area {
+            background: $colorWhite;
+            box-shadow: 0 0 5px 1px $borderColor4;
+         }
+      }
+   }
+}
+
+.top-info {
+   li {
+      .info-icon {
+         float: left;
+
+         i {
+            width: 35px;
+            height: 35px;
+            border: 1px solid $colors6;
+            position: relative;
+            text-align: center;
+            line-height: 34px;
+            border-radius: 50%;
+            color: $colors6;
+            top: 5px;
+            font-size: 18px;
+         }
+      }
+   }
+
+   .info-wrapper {
+      padding-left: 45px;
+      margin-right: 20px;
+
+      .info-title {
+         margin-bottom: -7px;
+         color: $colors3;
+         font-weight: 500;
+      }
+
+      .info-subtitle {
+         color: $colors1;
+         margin-bottom: 0;
+      }
+
+      p {
+         font-family: $pop;
+      }
+   }
+}

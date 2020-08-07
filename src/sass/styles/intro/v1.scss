@@ -1,0 +1,41 @@
+@import '../varriables';
+
+.tl-intro {
+   padding: 35px 0;
+   &.intro-bg{
+      background: url(../images/bg-img1.png);
+      background-size: cover;
+      background-position: top center;
+   }
+}
+
+.tl-intro-wrapper {
+   display: block;
+   padding: 30px 32px;
+
+   * {
+      color: $colorWhite;
+   }
+
+   p {
+      margin-bottom: 0;
+   }
+
+   .intro-icon {
+      float: left;
+
+      i {
+         font-size: 50px;
+      }
+   }
+
+   .intro-title {
+      text-transform: uppercase;
+      margin-bottom: 1px;
+   }
+
+   .intro-content {
+      padding-left: 60px;
+      padding-top: 7px;
+   }
+}
