@@ -78,6 +78,7 @@
                <li><a href="https://instagram.com/codingblocksjr"><i class="fa fa-instagram"></i></a></li>
                <li><a href="https://www.facebook.com/codingblocksjr"><i class="fa fa-facebook"></i></a></li>
                <li><a href="https://twitter.com/CodingBlocksJr"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://t.me/CodingBlocksJunior" target="_blank"><i class="fa fa-telegram"></i></a></li>
             </ul> <!-- List End -->
          </div> <!-- Social Links End -->
       </div> <!-- Col End -->
@@ -174,7 +175,7 @@
       </div> <!-- Col End -->
    </div> <!-- Row End -->
    <div class="banner-img" id="scene" data-relative-input="true">
-      <img data-depth="0.5" src="images/banner-pattern.png" alt="" class="img-fluid">
+      <img data-depth="0.5" src="images/banner-pattern.png" alt="" class="img-fluid" id="banner-pattern">
    </div><!-- Banner Img end -->
 </div> <!-- Container end --></div>
 
@@ -240,9 +241,11 @@
                      </li> <!-- list end -->
                   </ol> <!-- Course level end -->
                   <div class="course-btn">
-                     <a href="https://www.youtube.com/playlist?list=PLhLbJ9UoJCvsCXqP9yAOZpzXHhWkLBXdw" class="btn btn-success" target="_blank">Visit our Youtube channel</a>
-                     <a href="https://discord.gg/aNY68Zc" class="btn btn-primary btn-sm" target="_blank">Join Our discord Channel</a><br><br>
-                     <a href="https://t.me/CodingBlocksJunior" class="btn btn-success btn-secondary btn-sm" target="_blank">Join Our Telegram Channel</a>
+                     <div id="channel-buttons">
+                        <a href="https://www.youtube.com/playlist?list=PLhLbJ9UoJCvtQLpRzHQYtFPxXjELOrSaB" class="btn btn-success btn-secondary btn-sm" target="_blank">Visit our Youtube channel</a>
+                        <a href="https://discord.gg/aNY68Zc" class="btn btn-primary btn-sm" target="_blank" id="discord-button">Join Our discord Channel</a><br><br>
+                        <a href="https://t.me/CodingBlocksJunior" class="btn btn-success btn-secondary btn-sm" target="_blank">Join Our Telegram Channel</a>
+                     </div>
                   </div>
                </div> <!-- Course Body end -->
             </div> <!-- Course COntainer end -->
@@ -280,7 +283,20 @@
                      <li>Live classes of our courses are conducted on CB Jr Youtube channel. Please subscribe to our channel for this course.</li>
                   </ul> <!-- Course List End -->
                </div> <!-- Widget Duration End -->
-               
+               <div class="widget widget-duration">
+                  <h3 class="widget-title">CB Jr Discord</h3>
+                  <ul class="widget-course-list">
+                     <li><i class="fa fa-arrow-right"></i><a href="https://discord.gg/aNY68Zc">Click to join our Discord channel</a></li>
+                     <li>Get your doubts clarified related to courses on our Discord Channel from the mentors.</li>
+                  </ul> <!-- Course List End -->
+               </div> <!-- Widget Duration End -->
+               <div class="widget widget-duration">
+                  <h3 class="widget-title">CB Jr Telegram</h3>
+                  <ul class="widget-course-list">
+                     <li><i class="fa fa-arrow-right"></i><a href="https://t.me/CodingBlocksJunior">Click to join our Telegram channel</a></li>
+                     <li>To get updated about CB Jr and for general queries join our Telegram Channel.</li>
+                  </ul> <!-- Course List End -->
+               </div> <!-- Widget Duration End -->
             </div> <!-- Sidebar Right end -->
          </div> <!-- Col End -->
       </div> <!-- Row End -->
@@ -379,6 +395,7 @@
                   <li><a href="https://www.facebook.com/codingblocksjr" target="_blank"><i class="fa fa-facebook"></i></a></li>
                   <li><a href="https://twitter.com/CodingBlocksJr" target="_blank"><i class="fa fa-twitter"></i></a></li>
                   <li><a href="https://t.me/CodingBlocksJr" target="_blank"><i class="fa fa-telegram" style="background-color:#0088CC;"></i></a></li>
+                  <li><a href="https://discord.gg/aNY68Zc" target="_blank"><img src="./images/icon/discord-icon.png" id="discord-image"></a></li>
                </ul> <!-- list end -->
             </div> <!-- footer social end -->
          </div> <!-- COl end -->

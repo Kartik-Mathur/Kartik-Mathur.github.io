@@ -851,3 +851,47 @@
     margin-bottom: 20px;
   }
 }
+
+
+/* My Media Queries */
+@media (max-width:767px){
+  #banner-area{
+    padding: 50px 0px 80px 0px;
+  }
+  #banner-pattern{
+    visibility: hidden;
+    margin: 0px;
+    height: 0px;
+    padding: 0px;
+  }
+  .slider-btn{
+    position: absolute;
+    top:50%;
+    right:50%;
+  }
+  #main-slider-image{
+    height: 150px;
+    background-image: none !important;
+    background-color: #214B80;
+  }  
+  .remove{
+    display: none !important;
+  }
+  .slider-content .slider-text,
+  .slider-content .slider-title{
+    margin-bottom: 0px;
+  }
+  .slider-inner{
+    padding-bottom: -100px;
+  }
+  #discord-button{
+    margin-top: 30px;
+  }
+  #channel-buttons{
+    position: relative;
+    left: 22%;
+  }
+  .btn.btn-lg {
+    padding: 6px 136px;
+  }
+}

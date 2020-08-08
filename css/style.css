@@ -3839,3 +3839,13 @@ input:focus {
   transition-timing-function: ease-in-out;
   transition-duration: 0.3s;
 }
+
+#discord-image{
+  height: 31px;
+  border-radius:50%;
+}
+
+.slider-btn{
+  position: absolute;
+  left:15%
+}
