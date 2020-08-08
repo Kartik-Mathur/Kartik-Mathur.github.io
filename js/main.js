@@ -86,11 +86,13 @@ jQuery(function ($) {
 
    /* Document Ready Function */
    $(document).ready(function () {
+   /* MY JAVASCRIPT CODE*/
 
       $('.link1').on('click',()=>{
-        alert('This will be available soon!!')
+        alert('This will come soon!!!!')
       });
-      
+
+
       $('input').each(function (e) {
          $(this).attr('autocomplete', 'off');
          $(this).attr('autocorrect', 'off')
@@ -289,25 +291,25 @@ jQuery(function ($) {
                   Magnific Image Popup
       -------------------------------------------*/
 
-      if ($('.element-item').length > 0) {
-         $('.element-item').magnificPopup({
-            delegate: 'a',
-            type: 'image',
-            tLoading: 'Loading image #%curr%...',
-            mainClass: 'mfp-img-mobile',
-            gallery: {
-               enabled: true,
-               navigateByImgClick: true,
-               preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-            },
-            image: {
-               tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-               titleSrc: function (item) {
-                  // return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
-               }
-            }
-         });
-      }
+      // if ($('.element-item').length > 0) {
+      //    $('.element-item').magnificPopup({
+      //       delegate: 'a',
+      //       type: 'image',
+      //       tLoading: 'Loading image #%curr%...',
+      //       mainClass: 'mfp-img-mobile',
+      //       gallery: {
+      //          enabled: true,
+      //          navigateByImgClick: true,
+      //          preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+      //       },
+      //       image: {
+      //          tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      //          titleSrc: function (item) {
+      //             // return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+      //          }
+      //       }
+      //    });
+      // }
 
 
       /*-----------------------------------------
@@ -542,3 +544,10 @@ jQuery(function ($) {
    }); //Document Ready Function End
 
 });
+
+$(()=>{
+   $('.prevent-scroll').click((ev)=>{
+      ev.preventDefault()
+      alert('This will come soon!!')
+   })
+})

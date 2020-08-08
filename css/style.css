@@ -26,7 +26,7 @@
 24. Service
 25. Contact
 26. Register / Login
-
+27. My CSS
 */
 /* Typography
 =========================================== */
@@ -3825,4 +3825,17 @@ input:focus {
 
 .select2:focus {
   outline: 0;
+}
+
+
+
+/* My CSS */
+
+.course-details a:visited{
+  color: #494753;
+}
+.course-details a:hover h6{
+  color: #ffbf10;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
 }
