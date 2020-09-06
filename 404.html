@@ -1,7 +1,19 @@
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
-      
+      <style>
+        .no-js #loader { display: none;  }
+        .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+        .se-pre-con {
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+        }
+    </style>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83327907-15"></script>
       <script>
@@ -93,6 +105,8 @@
 
     <body>
         
+            <div class="se-pre-con"></div>
+
 
 <!-- Service Start -->
 <section id="main-container" class="main-container no-padding">
@@ -140,6 +154,7 @@
    </button><!-- button end-->
 </div>
 
+
 <!-- Javascripts File
       =============================================================================-->
 
@@ -171,6 +186,20 @@
 <script src="js/wow.min.js"></script>
 <!-- Template Custom -->
 <script src="js/main.js"></script>
+
+<script src="js/login.js"></script>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery.numeric@1.0.0/jquery.numeric.min.js"></script> 
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js"></script> 
+
+<script type="text/javascript">
+window.onload = (event) => {
+    $(".se-pre-con").fadeOut("slow");;
+};
+</script>
 
 </body>
 
