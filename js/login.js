@@ -4,14 +4,14 @@ $(document).ready(function() {
     let mobile_no
     let otpClaimId
 
-    $('.link1').on('click', () => {
+    $("body").on(".link1", "click", function() {
         $('#mobileDetailsModal').modal('show')
-    })
 
-    $('#getOtpBtn').on('click', async () => {
+    });
+
+    $("body").on("#getOtpBtn", "click", async function() {
 
         if ($('#getOtpBtn').html() == 'Proceed') {
-            debugger
             mobile_no = $('#mobile_no').val()
             localStorage.setItem("userMobile", mobile_no)
             if (mobile_no.length != 10)
@@ -69,8 +69,7 @@ $(document).ready(function() {
 
     })
 
-
-    $('#registerBtn').on('click', async () => {
+    $("body").on("#registerBtn", "click", async function() {
 
         try {
             const requestBody = {
@@ -99,7 +98,7 @@ $(document).ready(function() {
         }
     })
 
-    $('#registrationSuccess').on('click', () => {
+    $("body").on("#registrationSuccess", "click", function() {
         window.location.href = "thankYou.html"
     })
 

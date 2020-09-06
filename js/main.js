@@ -87,10 +87,8 @@ jQuery(function($) {
     /* Document Ready Function */
     $(document).ready(function() {
         /* MY JAVASCRIPT CODE*/
-
-        $('.login-modal').load('login-details-modal.html');
-
         
+        $('.login-modal').load('login-details-modal.html');
 
         $('input').each(function(e) {
             $(this).attr('autocomplete', 'off');
