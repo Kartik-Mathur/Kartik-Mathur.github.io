@@ -40,11 +40,14 @@ $(document).ready(function() {
             } catch (err) {
                 console.log(err)
                 $('#mobileDetailsModal').modal('hide')
-                alert("Some Error Occured")
+                alert("OTP verification failed!")
                 return
             }
 
             try {
+                // preloading start
+                $(".se-pre-con").show();
+
                 await axios.post(`${domain}/users/find`, {
                     'verifiedmobile': `+91-${mobile_no}`
                 })
@@ -59,6 +62,7 @@ $(document).ready(function() {
                             'Content-Type': 'application/x-www-form-urlencoded'
                         }
                     })
+
                 localStorage.setItem('jwt', juniorStudentResponse.data.jwt)
                 window.location.href = "user.html"
             } catch (err) {
@@ -93,7 +97,7 @@ $(document).ready(function() {
             window.location.href = "course-select.html"
         } catch (err) {
             console.log(err)
-            alert("Some Error Occured")
+            alert("Error Occured while registration!")
         }
     })
 
