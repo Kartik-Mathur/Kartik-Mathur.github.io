@@ -4,12 +4,11 @@ $(document).ready(function() {
     let mobile_no
     let otpClaimId
 
-    $("body").on(".link1", "click", function() {
+    $("body").delegate(".link1", "click", function() {
         $('#mobileDetailsModal').modal('show')
-
     });
 
-    $("body").on("#getOtpBtn", "click", async function() {
+    $("body").delegate("#getOtpBtn", "click", async function() {
 
         if ($('#getOtpBtn').html() == 'Proceed') {
             mobile_no = $('#mobile_no').val()
@@ -69,7 +68,7 @@ $(document).ready(function() {
 
     })
 
-    $("body").on("#registerBtn", "click", async function() {
+    $("body").delegate("#registerBtn", "click", async function() {
 
         try {
             const requestBody = {
@@ -98,7 +97,7 @@ $(document).ready(function() {
         }
     })
 
-    $("body").on("#registrationSuccess", "click", function() {
+    $("body").delegate("#registrationSuccess", "click", function() {
         window.location.href = "thankYou.html"
     })
 
