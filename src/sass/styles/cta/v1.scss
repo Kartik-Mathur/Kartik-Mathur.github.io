@@ -1,0 +1,119 @@
+@import '../varriables';
+
+.tl-cta {
+   padding: 45px 0 30px;
+
+   &.bg-green {
+      .cta-content {
+         * {
+            color: $colorWhite;
+         }
+
+         .cta-title {
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 12px;
+            font-size: 28px;
+         }
+      }
+   }
+}
+
+.newsletter {
+   .form-row {
+      position: relative;
+   }
+
+   .form-control {
+      padding: 19px 30px;
+      border-radius: 50px;
+   }
+
+   input {
+      &[type=email] {
+         background: transparent;
+         color: $colorWhite;
+         font-size: 14px;
+         border-color: $colorGLight;
+      }
+
+      &::placeholder {
+         color: $colorWhite;
+         font-size: 14px;
+      }
+   }
+
+   button {
+      &[type=submit] {
+         position: absolute;
+         right: 5px;
+         top: 5px;
+         height: 50px;
+         padding: 10px 57px;
+         border-radius: 50px;
+         border: none;
+         background: $colorWhite;
+         font-weight: 700;
+         letter-spacing: 2px;
+         cursor: pointer;
+         transition: all 0.3s;
+
+         &:hover {
+            color: $colors10;
+         }
+      }
+   }
+}
+
+/* CTA Classic */
+.cta-bg {
+   padding: 118px 0;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center top;
+}
+
+.cta-form-classic {
+   .cta-title {
+      color: #fff;
+      margin-bottom: 20px;
+   }
+
+   >p {
+      color: #fff;
+      margin-bottom: 30px;
+   }
+
+   .newsletter {
+      input {
+         &[type=email] {
+            background: #fff;
+            width: 71%;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            color: #494753;
+         }
+
+         &::placeholder {
+            color: #b3b2b6;
+            font-size: 12px;
+            letter-spacing: 3px;
+            font-weight: 600;
+         }
+      }
+
+      button {
+         &[type=submit] {
+            width: 27%;
+            padding: 10px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            height: 61px;
+            top: 0;
+            background: $colors10;
+            color: $colorWhite;
+            text-transform: uppercase;
+         }
+      }
+   }
+}

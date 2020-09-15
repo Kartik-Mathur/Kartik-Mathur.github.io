@@ -1,0 +1,67 @@
+@import '../varriables';
+
+.carousel-bg {
+   background: url(../images/service/service-bg.png);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100%;
+}
+
+.service-wrapper {
+   .service-items {
+      &.text-white {
+         .course-details {
+
+            .course-title,
+            .course-price {
+               color: $colorWhite;
+            }
+         }
+      }
+
+      .course-details {
+         .course-title {
+            transition: all 0.3s;
+         }
+      }
+
+      &:hover {
+         .service-tag {
+            animation: shake 1.2s linear both;
+         }
+
+         .course-details {
+            .course-title {
+               color: $colors10;
+            }
+         }
+      }
+   }
+}
+
+
+.service-carousel {
+   &.owl-carousel {
+      .owl-dots {
+         width: 100%;
+         text-align: right;
+         position: absolute;
+         top: -88px;
+
+         button {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: $bgColorTwo;
+            border-radius: 50%;
+            margin: 7px;
+            transition: all 0.3s;
+
+            &.active {
+               background: $colors10;
+            }
+         }
+      }
+   }
+}

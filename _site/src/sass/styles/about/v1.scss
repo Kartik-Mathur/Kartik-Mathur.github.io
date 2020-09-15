@@ -1,0 +1,102 @@
+@import '../varriables';
+
+.tl-about {
+   padding-top: 88px;
+   padding-bottom: 68px;
+}
+
+.about-content {
+   .readmore-btn {
+      margin-top: 28px;
+      margin-bottom: 40px;
+   }
+}
+
+.about-bg {
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+}
+
+.about-box {
+   padding: 35px 40px 40px;
+
+   h3 {
+      color: $colorWhite;
+      font-weight: 700;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+   }
+
+   p {
+      color: $colorWhite;
+      margin-bottom: 18px;
+   }
+}
+
+.about-event {
+   .event-title {
+      font-size: 30px;
+      text-transform: none;
+      font-weight: 700;
+      margin-bottom: 45px;
+   }
+
+   .event-time {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 75px;
+      background: $colors10;
+      text-align: center;
+      padding: 31px 0;
+
+      span {
+         display: block;
+         font-family: $pop, sans-serif;
+         color: $colorWhite;
+         font-weight: 600;
+      }
+
+      .event-date {
+         font-size: 45px;
+         margin-bottom: 9px;
+      }
+
+      .event-month {
+         font-weight: 500;
+      }
+   }
+}
+
+.event-box-wrapper {
+   border: 1px solid $colors10;
+   margin-bottom: 30px;
+   position: relative;
+   padding: 20px 0 10px 90px;
+   min-height: 155px;
+}
+
+.event-info {
+   .event-name {
+      text-transform: none;
+      margin-bottom: 6px;
+   }
+
+   .event-location {
+      >span {
+         color: $colors10;
+         margin-right: 15px;
+
+         i {
+            color: $colors11;
+            margin-right: 4px;
+         }
+      }
+   }
+}
+
+.event-desc {
+   margin-bottom: 0;
+   margin-top: 10px;
+}

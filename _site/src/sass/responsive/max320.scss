@@ -1,0 +1,21 @@
+@media (min-width: 320px) and (max-width: 478px) {
+   .slider-content .slider-btn .btn:not(:last-child) {
+      margin-bottom: 20px;
+   }
+
+   .comments-area .comments-reply {
+      margin-left: 25px;
+   }
+
+   /* Video */
+   .video-btn-group .btn:not(:last-child) {
+      margin-bottom: 30px;
+      margin-right: 0;
+   }
+
+   /* Single Course */
+   .course-btn .btn {
+      margin-right: 0;
+      margin-bottom: 20px;
+   }
+}

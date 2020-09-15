@@ -1,0 +1,46 @@
+@import '../varriables';
+
+.tl-copyright {
+   background: $bgColorChar;
+   padding: 27px 0;
+}
+
+.copyright-text {
+   margin-bottom: 0;
+   color: $colors1;
+   font-weight: 600;
+   font-size: 15px;
+}
+
+.copyright-menu {
+   ul {
+      li {
+         position: relative;
+
+         a {
+            text-transform: uppercase;
+            color: $colors1;
+            font-weight: 600;
+            display: block;
+            transition: all 0.3s;
+            &:hover{
+               color: $colors6;
+            }
+         }
+
+         &:not(:first-child) {
+            margin-left: 15px;
+
+            &:before {
+               content: "";
+               position: absolute;
+               top: calc(50% - 7px);
+               left: -8px;
+               width: 1px;
+               height: 15px;
+               background: $colors1;
+            }
+         }
+      }
+   }
+}

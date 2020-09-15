@@ -1,0 +1,69 @@
+@import '../varriables';
+
+.notfound-bg {
+   position: relative;
+   z-index: 1;
+
+   &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: url(../images/error-bg1.png);
+      background-size: 100%;
+      background-position: top center;
+   }
+}
+
+.notfound-title {
+   font-size: 120px;
+   line-height: 90px;
+   margin-bottom: -5px;
+
+   span {
+      display: block;
+      margin-bottom: -47px;
+      color: $colorOrange;
+      margin-top: 35px;
+   }
+
+   small {
+      font-size: 18px;
+      color: $colors14;
+      font-weight: 700;
+      letter-spacing: 2px;
+   }
+}
+
+.not-found-wrapper {
+   padding: 152px 80px;
+
+   >p {
+      font-family: $pop;
+      font-weight: 600;
+      color: $colors3;
+      font-size: 18px;
+      margin-bottom: 38px;
+   }
+
+   .btn {
+      margin-bottom: 40px;
+   }
+}
+
+
+.notfound-logo {
+   .tl-topbar-menu {
+      display: flex;
+      justify-content: space-between;
+      padding: 44px 40px;
+      border-bottom: 1px solid $borderColor8;
+   }
+}
+
+.error-img {
+   min-height: 880px;
+}

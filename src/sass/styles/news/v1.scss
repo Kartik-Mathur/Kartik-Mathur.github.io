@@ -1,0 +1,83 @@
+@import '../varriables';
+
+.tl-latest-post {
+   .latest-post-media {
+      position: relative;
+      margin-bottom: 17px;
+      overflow: hidden;
+   }
+
+   .post-date {
+      margin-bottom: 15px;
+
+      span,
+      a {
+         color: $colorGray;
+      }
+
+      span {
+         i {
+            font-size: 14px;
+            margin-right: 5px;
+         }
+      }
+
+      .post-time {
+         margin-right: 20px;
+      }
+   }
+
+   .post-meta {
+      position: absolute;
+      bottom: -35px;
+      left: 0;
+      width: 100%;
+      background: $colors10;
+      padding: 4px 20px;
+      transition: all 0.3s;
+
+      .post-author {
+         color: $colorWhite;
+
+         a {
+            color: $colorWhite;
+         }
+
+         i {
+            margin-right: 7px;
+         }
+      }
+   }
+
+   .post-info {
+      .post-title {
+         margin-bottom: 15px;
+
+         a {
+            color: $colors3;
+            line-height: 32px;
+            transition: all 0.3s;
+         }
+      }
+
+      .readmore-btn {
+         margin-top: 1px;
+      }
+   }
+
+   &:hover {
+      .post-title {
+         a {
+            color: $colors10;
+         }
+      }
+
+      .post-meta {
+         bottom: 0;
+      }
+
+      .readmore-btn {
+         color: $colors10;
+      }
+   }
+}

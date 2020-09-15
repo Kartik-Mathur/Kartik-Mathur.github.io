@@ -1,0 +1,109 @@
+@import '../varriables';
+
+.team-img {
+   position: relative;
+   overflow: hidden;
+}
+
+.team-header {
+   background: $bgColorOne;
+   text-align: center;
+   padding: 20px 0;
+   transition: all 0.3s;
+
+   .person-name {
+      color: $colorWhite;
+      margin-bottom: 3px;
+   }
+
+   span {
+      color: $colors12;
+   }
+}
+
+
+.team-single-box {
+   .share-item {
+      position: absolute;
+      top: 0;
+      left: -50px;
+      width: 50px;
+      height: 100%;
+      background: $colorGreen;
+      transition: all 0.3s;
+      opacity: 0;
+      visibility: hidden;
+
+      ul {
+         text-align: center;
+         position: absolute;
+         width: 100%;
+         bottom: 75px;
+
+         li {
+            margin-bottom: 12px;
+            margin-right: 0;
+
+            a {
+               i {
+                  margin: 0 auto;
+               }
+            }
+         }
+      }
+   }
+
+   &:hover {
+      .share-item {
+         left: 0;
+         opacity: 1;
+         visibility: visible;
+      }
+
+      .team-header {
+         background: $colorGreen;
+
+         span {
+            color: $colorWhite;
+         }
+      }
+   }
+}
+
+
+.team-carousel {
+   &.owl-carousel {
+      .owl-item {
+         img {
+            width: 100%;
+            height: 310px;
+         }
+      }
+
+      .owl-nav {
+         position: absolute;
+         top: -97px;
+         width: 100%;
+         text-align: right;
+
+         button {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            color: $colors2;
+            border: 1px solid $borderColor3;
+            transition: all 0.3s;
+
+            &:not(:last-child) {
+               margin-right: 15px;
+            }
+
+            &:hover {
+               background: $colors10;
+               border-color: $colors10;
+               color: $colorWhite;
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,51 @@
+@import 'varriables';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+body {
+   background: $colorWhite;
+   color: $colors1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   overflow-x: hidden;
+   font-size: 14px;
+   line-height: 26px;
+   font-family: $op;
+}
+
+p {
+   color: $colors2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: $popSemiBold;
+   color: $colors3;
+   font-family: $pop;
+}
+
+h1 {
+   font-size: 48px;
+}
+
+h2 {
+   font-size: 36px;
+}
+
+h3 {
+   font-size: 23px;
+}
+
+h4 {
+   font-size: 20px;
+}
+
+h5 {
+   font-size: 18px;
+}
+
+h6 {
+   font-size: 16px;
+}

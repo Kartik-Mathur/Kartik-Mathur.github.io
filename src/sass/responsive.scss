@@ -1,0 +1,21 @@
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+
+@import 'responsive/min1200';
+/* Medium Devices, Desktops */
+
+@import 'responsive/min992';
+/* Small Devices, Tablets */
+
+@import 'responsive/max991';
+/* Small Devices Potrait */
+
+@import 'responsive/max767';
+/* Extra Small Devices, Phones */
+
+@import 'responsive/max479';
+/* Custom, iPhone Retina */
+
+@import 'responsive/max320';

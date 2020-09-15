@@ -1,0 +1,33 @@
+@import 'varriables';
+
+/* Owl Carousel Default */
+.owl-carousel {
+   .owl-item {
+      img {
+         width: initial;
+      }
+   }
+}
+
+/* Form Control Focus */
+.form-control {
+   &:focus {
+      border-color: inherit;
+      box-shadow: none;
+      background: none;
+   }
+}
+
+.input-group>.custom-file .custom-file-input:focus~.custom-file-label,
+.input-group>.custom-select:focus,
+.input-group>.form-control:focus {
+   z-index: initial;
+}
+
+input:focus {
+   outline: none;
+}
+
+.select2:focus {
+   outline: 0;
+}

@@ -1,0 +1,32 @@
+<!-- Modal Start-->
+<div class="modal fade" id="mobileDetailsModal" tabindex="-1" role="dialog" aria-labelledby="mobileDetailModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="mobileModalLabel">Sign In / Register</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row enter_mobile">
+                    <label class="col-md-4 offset-1 control-label" style="padding-top: 5px;"><b>Enter Mobile No</b><span class="required"> * </span> </label>
+                    <div class="col-md-6">
+                        <input minlength="10" maxlength="10" type="text" id="mobile_no" name="mobile_no" class="form-control positive-integer" placeholder="mobile">
+                    </div>
+                </div>
+                <div class="form-group row enter_otp" style="display: none">
+                    <label class="col-md-4 offset-1 control-label" style="padding-top: 5px;"><b>Enter OTP</b><span class="required"> * </span> </label>
+                    <div class="col-md-6">
+                        <input maxlength="6" type="text" id="otp" name="otp" class="form-control positive-integer" placeholder="OTP">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" id="getOtpBtn" class="btn btn-primary">Proceed</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal End-->

@@ -1,0 +1,149 @@
+@import '../varriables';
+
+.tl-course-single {
+   .container {
+      border-bottom: 1px solid $borderColor8;
+      padding-bottom: 80px;
+      margin-bottom: 70px;
+   }
+}
+
+.single-course-contianer {
+   .course-img {
+      .course-header {
+         margin-top: -85px;
+         background: $colorWhite;
+         position: relative;
+         z-index: 1;
+         margin-left: 75px;
+         border-top-left-radius: 50px;
+         padding: 23px 0 0 40px;
+
+         .course-heading {
+            margin-bottom: 5px;
+
+            .course-title {
+               float: left;
+            }
+
+            .single-course-price {
+               float: right;
+               text-align: right;
+
+               span {
+                  color: $colors17;
+                  display: inline-block;
+                  margin-bottom: 2px;
+               }
+
+               h3 {
+                  color: $colorOrange;
+                  font-weight: 700;
+                  font-family: $op;
+               }
+            }
+         }
+      }
+   }
+}
+
+.single-course-meta {
+   display: flex;
+   flex-wrap: wrap;
+   flex: 0 0 100%;
+
+   .course-teacher {
+      display: flex;
+
+      img {
+         width: 45px;
+         height: 45px;
+         border-radius: 5px;
+      }
+   }
+
+   li {
+      p {
+         margin-bottom: 0;
+      }
+   }
+
+   .course-teacher-name {
+      margin-left: 20px;
+   }
+
+   >li {
+      margin-right: 53px;
+   }
+
+   li {
+      div> {
+         span {
+            color: $colors15;
+         }
+
+         p {
+            color: $colors3;
+            font-weight: 600;
+            margin-top: -3px;
+         }
+      }
+   }
+
+}
+
+.course-body {
+   margin-top: 40px;
+
+   .course-body-title {
+      font-size: 25px;
+      margin-bottom: 25px;
+   }
+
+   >p {
+      margin-bottom: 40px;
+   }
+}
+
+
+.course-level {
+   >li {
+      font-size: 20px;
+      font-family: $pop;
+      font-weight: 500;
+   }
+
+   .course-level-details {
+      margin-top: 25px;
+      margin-bottom: 40px;
+      list-style-type: disc;
+
+      >li {
+         color: $colors3;
+         font-size: 14px;
+         font-family: $op;
+         font-weight: 600;
+         margin-bottom: 8px;
+      }
+
+      li {
+         span {
+            background: $colorBlack;
+            margin-left: 30px;
+            padding: 0 7px;
+            height: 22px;
+            line-height: 22px;
+            display: inline-block;
+            color: $colorWhite;
+            font-size: 12px;
+            border-radius: 50px;
+         }
+      }
+   }
+}
+
+.course-btn {
+   .btn {
+      margin-right: 27px;
+   }
+}
