@@ -1,0 +1,93 @@
+@import '../../varriables';
+
+.home-banner-wrapper {
+   height: 800px;
+   display: table;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+
+   .home-banner-inner {
+      display: table-cell;
+      vertical-align: bottom;
+
+      .banner-title {
+         font-size: 42px;
+         color: $colorWhite;
+         margin-bottom: 40px;
+      }
+   }
+}
+
+.tl-countdown-box {
+   position: relative;
+   margin-bottom: -70px;
+   border-radius: 5px;
+   background: $colorBlack;
+   text-align: center;
+
+   .header-form {
+      background: $bgColorOne;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+
+      .form-group {
+         margin-bottom: 22px;
+
+         .form-control {
+            border: none;
+            background: transparent;
+            border-bottom: 1px solid $borderColorFourteen;
+            padding-bottom: 20px;
+            padding-left: 0;
+            border-radius: 0;
+         }
+
+         input[type=submit] {
+            margin-top: 15px;
+            margin-bottom: 10px;
+         }
+      }
+   }
+}
+
+.countdown-timer {
+   padding-bottom: 65px;
+   background: $colorOrange;
+
+   h2 {
+      margin-bottom: 42px;
+      text-transform: uppercase;
+      color: $colorWhite;
+   }
+}
+
+.countdown-timer,
+.header-form {
+   padding: 40px;
+   border-radius: 5px;
+}
+
+.countdown-clock {
+   display: flex;
+   justify-content: center;
+
+   .counter-time {
+      display: flex;
+      color: $colorWhite;
+
+      span {
+         font-size: 55px;
+         font-weight: 700;
+
+         &.time-name {
+            font-size: 12px;
+            font-family: $pop;
+            text-transform: uppercase;
+            transform: rotate(-90deg);
+            display: inline-block;
+         }
+      }
+   }
+}

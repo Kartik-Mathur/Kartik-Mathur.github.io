@@ -1,0 +1,52 @@
+@import '../varriables';
+
+.tl-funfact {
+   background: url(../images/funfact/funfact-bg1.jpg);
+   background-size: cover;
+   background-position: top right;
+   background-attachment: fixed;
+   padding: 75px 0 65px;
+
+   &.bg-overlay-green,
+   &.bg-overlay {
+      * {
+         color: $colorWhite;
+      }
+   }
+
+   &.dark-bg {
+      background: url(../images/funfact/funfact-bg2.jpg);
+      background-size: cover;
+      background-position: top right;
+      background-attachment: fixed;
+      padding: 75px 0 65px;
+   }
+}
+
+.single-counter-box {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+
+   .counter-icon {
+      font-size: 75px;
+   }
+
+   .counter-content {
+      padding-left: 12px;
+      font-size: 40px;
+      font-family: $pop;
+      font-weight: 700;
+
+      span {
+         display: inline-block;
+         margin-bottom: 18px;
+      }
+
+      .counter-title {
+         margin-bottom: 0;
+         font-weight: 300;
+         font-size: 22px;
+      }
+   }
+}

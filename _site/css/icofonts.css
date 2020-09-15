@@ -1,0 +1,94 @@
+@font-face {
+   font-family: 'iconfont';
+   src:
+      url('../fonts/iconfont/iconfont.ttf?2p4rfb') format('truetype'),
+      url('../fonts/iconfont/iconfont.woff?2p4rfb') format('woff'),
+      url('../fonts/iconfont/iconfont.svg?2p4rfb#iconfont') format('svg');
+   font-weight: normal;
+   font-style: normal;
+}
+
+.icon {
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: 'iconfont' !important;
+   font-style: normal;
+   font-size: inherit;
+   speak: none;
+   text-transform: none;
+   line-height: 1;
+   display: inline-block;
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-down:before {
+   content: "\e913";
+ }
+ .icon-chevron-left:before {
+   content: "\e914";
+ }
+ .icon-chevron-right:before {
+   content: "\e915";
+ }
+ .icon-chevron-up:before {
+   content: "\e916";
+ }
+ .icon-location-pin:before {
+   content: "\e910";
+ }
+ .icon-two-friends:before {
+   content: "\e911";
+ }
+ .icon-users-couple:before {
+   content: "\e912";
+ }
+ .icon-art:before {
+   content: "\e900";
+ }
+ .icon-award:before {
+   content: "\e901";
+ }
+ .icon-ballerina:before {
+   content: "\e902";
+ }
+ .icon-bell:before {
+   content: "\e903";
+ }
+ .icon-calendar:before {
+   content: "\e904";
+ }
+ .icon-face:before {
+   content: "\e905";
+ }
+ .icon-hourglass:before {
+   content: "\e906";
+ }
+ .icon-internet:before {
+   content: "\e907";
+ }
+ .icon-journalist:before {
+   content: "\e908";
+ }
+ .icon-language:before {
+   content: "\e909";
+ }
+ .icon-medal:before {
+   content: "\e90a";
+ }
+ .icon-music:before {
+   content: "\e90b";
+ }
+ .icon-phone:before {
+   content: "\e90c";
+ }
+ .icon-question:before {
+   content: "\e90d";
+ }
+ .icon-telephone:before {
+   content: "\e90e";
+ }
+ .icon-time:before {
+   content: "\e90f";
+ }
+ 
