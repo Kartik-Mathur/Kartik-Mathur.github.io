@@ -102,7 +102,7 @@ $(document).ready(function() {
     })
 
     $("body").delegate("#registrationSuccess", "click", function() {
-        window.location.href = "thankYou.html"
+        window.location.href = "thank-you.html"
     })
 
 })
